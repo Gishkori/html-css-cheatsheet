@@ -6,3 +6,12 @@
 .main-nav {
     text-align: center;
 }
+
+
+table, th, td {
+    border: 1px solid green;
+}
+
+th, td {
+    font-size: 20px;
+}
