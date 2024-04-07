@@ -5,13 +5,46 @@
 
 .main-nav {
     text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
+
+nav {
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
 }
 
 
 table, th, td {
-    border: 1px solid green;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
 }
 
 th, td {
-    font-size: 20px;
+    background-color: #FFFAF0;
+    border-style: ridge;
+    padding: 5px;
+}
+
+.tag {
+    color: blueviolet;
+}
+
+
+body, table {
+    margin: 0 auto;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.heading {
+    text-align: center;
 }
